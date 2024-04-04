@@ -50,7 +50,7 @@ kotlin {
         val androidMain by getting {
             dependencies {
                 implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2")
-                implementation("io.arrow-kt:arrow-fx-coroutines:1.2.1")
+                implementation("io.arrow-kt:arrow-fx-coroutines:1.2.4")
             }
         }
     }
