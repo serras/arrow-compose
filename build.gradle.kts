@@ -43,7 +43,7 @@ kotlin {
         val commonMain by getting {
             dependencies {
                 implementation(compose.runtime)
-                implementation("io.arrow-kt:arrow-optics:1.2.1")
+                implementation("io.arrow-kt:arrow-optics:1.2.4")
                 implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.3")
             }
         }
