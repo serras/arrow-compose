@@ -44,7 +44,7 @@ kotlin {
             dependencies {
                 implementation(compose.runtime)
                 implementation("io.arrow-kt:arrow-optics:1.2.1")
-                implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.3")
+                implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.9.0")
             }
         }
         val androidMain by getting {
